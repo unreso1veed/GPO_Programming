@@ -3,10 +3,14 @@ Including different programs written for GPO purposes
 
 ***
 Инструкция по запуску: так как gnuplot запускается через subprocess, а не через библиотеки python, для начала нужно установить его на устройство.
+
 Для этого: 
+
 MAC - "brew install gnuplot"
+
 Linux - "sudo apt-get update
 sudo apt-get install gnuplot"
+
 Windows - скачать с официального сайта (http://www.gnuplot.info), затем добавить в PATH
 
 Помимо gnuplot, также используются библиотеки pandas, numpy, pathlib
